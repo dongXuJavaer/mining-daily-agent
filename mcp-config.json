@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "news": {
+      "command": "python",
+      "args": ["-m", "servers.news_server.server"],
+      "env": {}
+    },
+    "mineral-pdf": {
+      "command": "python",
+      "args": ["-m", "servers.mineral_pdf_server.server"],
+      "env": {}
+    },
+    "price": {
+      "command": "python",
+      "args": ["-m", "servers.price_server.server"],
+      "env": {}
+    }
+  }
+}

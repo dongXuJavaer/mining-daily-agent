@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python -c ' *)",
+      "Bash(pip install *)",
+      "WebSearch",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(pip show *)",
+      "Bash(python *)",
+      "Bash(npx @modelcontextprotocol/inspector python -m servers.news_server.server)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:6274)",
+      "Bash(netstat -ano)",
+      "Bash(CLIENT_PORT=5174 SERVER_PORT=6278 npx @modelcontextprotocol/inspector python -m servers.news_server.server)"
+    ]
+  }
+}
